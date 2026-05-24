@@ -4,9 +4,9 @@ using namespace std;
 void selection_sort(vector<int> &v){
 int mini=0;
 int n=v.size();
-for(int i=0;i<n-2;i++){
+for(int i=0;i<=n-2;i++){
     mini=i;
-    for(int j=i;j<n-1;j++){
+    for(int j=i;j<=n-1;j++){
         if(v[j]<v[mini]){
             mini=j;
         }
